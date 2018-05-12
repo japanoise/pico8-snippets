@@ -7,11 +7,11 @@ function stack:create()
 
 	function stack:pop()
 		if (stack:empty()) then
-	 return nil
+			return nil
 		else
-	 ret = stack[stack.index]
-	 stack.index -= 1
-	 return ret
+			ret = stack[stack.index]
+			stack.index -= 1
+			return ret
 		end
 	end
 
